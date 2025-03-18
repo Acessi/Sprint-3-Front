@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col items-end mr-24">
                     <Image src="/images/logo.png" width={65} height={0}  alt="logo"/>
-                    <p id="copy">© Copyright 2024 | Grupo CCR</p>
+                    <p id="copy">© Copyright 2025 | Grupo CCR</p>
                 </div>
             </div>
         </>

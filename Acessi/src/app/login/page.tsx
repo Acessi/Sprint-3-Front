@@ -1,9 +1,6 @@
 "use client"
 
 import React, { useEffect } from 'react';
-import Header from "../components/header";
-import Footer from "../components/footer";
-import MenuUsuario from "../components/menuUsuario";
 
 export default function Login() {
   useEffect(() => {
