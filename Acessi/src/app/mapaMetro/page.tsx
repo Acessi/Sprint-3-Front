@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import MenuTopo from '../components/menuTopo';
 
 export default function MapaMetro() {
   useEffect(() => {
@@ -11,6 +12,7 @@ export default function MapaMetro() {
   return (
     <>
       <main>
+      <MenuTopo/>
         <h1 className="text-2xl font-bold text-center mt-6 mb-4"> Mapa Metropolitano do Metrô de São Paulo </h1>
 
         <div className="flex justify-center">

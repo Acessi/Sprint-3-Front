@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect } from 'react';
+import MenuTopo from '../components/menuTopo';
 
 
 export default function ChatCeci() {
@@ -12,6 +13,7 @@ export default function ChatCeci() {
   return (
     <>
       <main>
+      <MenuTopo/>
         <div className="w-[85%] mx-auto mb-10">
           <div className="flex items-center space-x-4 p-4 bg-gray-100 rounded-lg shadow-md">
             <Image src="/images/Ceci_S_BG.png" width={100} height={0} alt="IconeCeci" className="w-16 h-16 rounded-full" />

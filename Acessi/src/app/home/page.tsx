@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useEffect } from 'react';
+import MenuTopo from '../components/menuTopo';
 
 export default function Home() {
   useEffect(() => {
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <main>
+      <MenuTopo/>
         <div className="w-[85%] mx-auto mb-10">
           <h2 className="font-semibold text-3xl mb-5">Olá Passageiro,</h2>
           <h3 className="text-xl font-medium mt-2 text-center bg-slate-100 rounded-lg shadow-md">ÚLTIMAS NOTIFICAÇÕES</h3>

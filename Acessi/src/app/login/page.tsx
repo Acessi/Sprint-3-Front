@@ -10,7 +10,7 @@ export default function Login() {
   return (
     <>
       <main>
-        <form method="post" encType="multipart/form-data" className="w-full max-w-sm mx-auto bg-slate-50 p-6 rounded-lg shadow-md">
+        <form method="post" encType="multipart/form-data" className="w-full max-w-sm mx-auto bg-slate-50 p-6 rounded-lg shadow-md mt-24">
             <div className="mb-4">
                 <label htmlFor="txtUsuario" className="block text-gray-700 font-bold mb-2">Usuário</label>
                 <input 
@@ -35,7 +35,7 @@ export default function Login() {
                 <a href="cadastro" className="bg-gray-300 text-gray-800 px-4 py-2 rounded-full hover:bg-gray-400">Cadastrar</a>
                 <a href="home" className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-700">Entrar</a>
             </div>
-            <div className="mt-3 text-center mb-8">
+            <div className="mt-3 text-center mb-10">
                 <a href="esqueciSenha" className="text-sm text-blue-500 hover:underline">Esqueci minha senha...</a>
             </div>
       </main>

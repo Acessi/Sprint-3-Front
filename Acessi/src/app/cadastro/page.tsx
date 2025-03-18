@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import MenuTopo from '../components/menuTopo';
 
 export default function AtualizarCadastro() {
   useEffect(() => {

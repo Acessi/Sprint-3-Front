@@ -8,11 +8,11 @@ export default function EsqueciSenha() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-grow flex items-center justify-center">
+    <div className="flex flex-col mt-24 mb-24">
+      <main className="flex-grow items-center justify-center">
         <div className="max-w-md mx-auto bg-slate-50 p-6 rounded-lg shadow-md text-center">
           <h1 className="text-2xl font-bold text-gray-800">Esqueceu sua senha?</h1>
-          <h2 className="text-gray-600">
+          <h2 className="text-gray-600 mb-4">
             Enviaremos um e-mail com instruções <br />
             de como redefinir a sua senha! <br /><br />
             Digite o e-mail cadastrado:

@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import MenuTopo from '../components/menuTopo';
 
 export default function Integrantes() {
   useEffect(() => {
@@ -11,6 +12,7 @@ export default function Integrantes() {
   return (
     <>
       <main>
+      <MenuTopo/>
         <h1 className="text-2xl font-bold text-center mb-6">Integrantes</h1>
           <div className="flex flex-col items-center space-y-6 mb-10">
             <div className="flex items-center bg-gray-100 p-4 rounded-lg shadow-md w-full max-w-md">
@@ -19,7 +21,7 @@ export default function Integrantes() {
                     <p className="font-bold">Bárbara Bonome Filipus</p>
                     <p><b>RM:</b> 560431 <b>|</b> 1TDSPA-2024</p>
                     <a href="https://linkedin.com/in/barbarabonomef" target="_blank" className="inline-block mt-2">
-                        <Image src="/images/linkedin.png" width={100} height={0} alt="LinkedIn" className="h-6"/>
+                        <Image src="/images/linkedin.png" width={100} height={0} alt="LinkedIn"/>
                     </a>
                 </div>
             </div>
@@ -30,7 +32,7 @@ export default function Integrantes() {
                     <p className="font-bold">Beatriz Bortolai Lourenço</p>
                     <p><b>RM:</b> 560186 <b>|</b> 1TDSPA-2024</p>
                     <a href="http://linkedin.com/in/beatriz-bortolai" target="_blank" className="inline-block mt-2">
-                        <Image src="/images/linkedin.png" width={100} height={0} alt="LinkedIn" className="h-6"/>
+                        <Image src="/images/linkedin.png" width={100} height={0} alt="LinkedIn"/>
                     </a>
                 </div>
             </div>
@@ -41,7 +43,7 @@ export default function Integrantes() {
                     <p className="font-bold">Vinicius Lira Ruggeri</p>
                     <p><b>RM:</b> 560593 <b>|</b> 1TDSPA-2024</p>
                     <a href="https://www.linkedin.com/in/viniruggeri" target="_blank" className="inline-block mt-2">
-                        <Image src="/images/linkedin.png" width={100} height={0} alt="LinkedIn" className="h-6"/>
+                        <Image src="/images/linkedin.png" width={100} height={0} alt="LinkedIn"/>
                     </a>
                 </div>
             </div>

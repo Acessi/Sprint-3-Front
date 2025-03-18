@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import MenuTopo from '../components/menuTopo';
 
 export default function Cadastro() {
   useEffect(() => {
@@ -11,6 +12,7 @@ export default function Cadastro() {
   return (
     <>
       <main>
+      <MenuTopo/>
       <form method="post" encType="multipart/form-data" className="max-w-3xl mx-auto bg-gray-100 p-6 rounded-lg shadow-md mt-8 mb-10">
       <p className="text-xl font-bold text-gray-700 text-center mb-4">Atualize os dados do seu cadastro</p>
       
