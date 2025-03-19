@@ -48,7 +48,7 @@ export default function Integrantes() {
                 </div>
             </div>
 
-            <a href="https://github.com/Acessi/Sprint-1-Front.git" target="_blank" className="flex items-center bg-slate-100 px-4 py-2 border-2 border-black rounded-full shadow-md hover:bg-gray-300 transition">
+            <a href="https://github.com/Acessi/Sprint-3-Front" target="_blank" className="flex items-center bg-slate-100 px-4 py-2 border-2 border-black rounded-full shadow-md hover:bg-gray-300 transition">
                 <Image src="/images/github.png" width={100} height={0} alt="GitHub" className="w-6 h-6 mr-2"/>
                 <p className="font-bold">GitHub</p>
             </a>
